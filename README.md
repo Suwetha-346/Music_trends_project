@@ -105,40 +105,7 @@ The main objectives of this project are:
 - VS Code
 - Jupyter Notebook
 
----
 
-# Project Structure
-
-```text
-spotify_music_evolution/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── database/
-│   └── spotify_evolution.db
-│
-├── output/
-│   ├── charts/
-│   └── reports/
-│
-├── scripts/
-│   ├── 01_data_cleaning.py
-│   ├── 02_load_to_db.py
-│   ├── 03_analysis_queries.py
-│   ├── 04_diversity_index.py
-│   └── 05_visualizations.py
-│
-├── notebooks/
-│   └── spotify_analysis.ipynb
-│
-├── generate_synthetic_data.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 #  Dataset Information
 
