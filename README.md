@@ -81,31 +81,6 @@ The main objectives of this project are:
 
 ---
 
-#  Project Architecture
-
-```text
-generate_synthetic_data.py
-        │  (raw JSON files)
-        ▼
-scripts/01_data_cleaning.py
-        │  (cleaned_streaming.csv)
-        ▼
-scripts/02_load_to_db.py
-        │  (spotify_evolution.db)
-        ├──────────────────────────────────────────┐
-        ▼                                          ▼
-scripts/03_analysis_queries.py          scripts/04_diversity_index.py
-        │  (reports/*.csv)                         │
-        └──────────────────────┬───────────────────┘
-                               ▼
-               scripts/05_visualizations.py
-                               │
-                               ▼
-                         PNG Charts
-```
-
----
-
 #  Technologies Used
 
 ## Programming Language
